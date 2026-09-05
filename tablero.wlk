@@ -14,4 +14,9 @@ object tablero {
     game.height(35)
     game.cellSize(15)
     }
+
+    method estanEnLaMismaPosicion(visual1,visual2) {
+      return(visual1.x()== visual2.x() && visual1.y()==visual2.y())
+    }
+
 }

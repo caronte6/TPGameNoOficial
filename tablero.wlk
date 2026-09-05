@@ -19,4 +19,11 @@ object tablero {
       return(visual1.x()== visual2.x() && visual1.y()==visual2.y())
     }
 
+    method puedeIrseALaPosicionX(posicion) {
+      return( posicion < limiteEjeX)
+    }
+    
+    method puedeIrseALaPosicionY(posicion) {
+      return( posicion <limiteEjeY)
+    }
 }

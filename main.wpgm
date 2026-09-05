@@ -1,11 +1,11 @@
 import interfaz.*
+import tablero.*
+
 import wollok.game.*
 
 program name {
   
-  game.width(35)
-  game.height(35)
-  game.cellSize(15)
+  tablero.CargarDimeciones()
   game.start()
   menu.Cargar()
 }

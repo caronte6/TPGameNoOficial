@@ -28,20 +28,18 @@ un juego de barcos que disparan en alguna cordenada  en el tablero para dañar l
 ## tablero y formas de saber ubicacion
 
 
-El tablero sera de **35^2** de celdas de 15px. la forma de saber la posicion de un
-objeto sera el saber previo del tamaño del tablero mas los metodos x() e y() propios de un objeto ej:
+La forma de saber la posicion de un
+objeto sera consultar el método position. que retorna otro objeto encargado de la posición y consultar por sus ejes ej:
 ```javascript
 
 object pepita {
   var property position = game.at(3, 1)
 
-  method x() {
-    return( position.x())
-  }
+  
 }
 ```
 la salida seria
 ```javascript
-pepita.x()
+pepita.position.x()
 3
 ```

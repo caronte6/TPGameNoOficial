@@ -7,8 +7,8 @@
 
 # Juegos confirmados
 1. [Snake](#snake)
-2. [?](#)
-3. [?](#)
+2. [Batalla naval](#Batalla-Naval)
+3. [Blackjack ](#Blackjack)
 
 # Aclaracion de juegos
 
@@ -16,6 +16,13 @@
 
 una serpiente que come y crece su cuerpo en un determinado lugar encerrado que 
 debe comer lo suficiente para salir por la puerta
+
+### Batalla Naval
+
+un juego de barcos que disparan en alguna cordenada  en el tablero para dañar los barcos enemigos
+
+### Blackjack 
+
 
 
 ## tablero y formas de saber ubicacion

@@ -18,12 +18,21 @@ object tablero {
     method estanEnLaMismaPosicion(visual1,visual2) {
       return(visual1.x()== visual2.x() && visual1.y()==visual2.y())
     }
-
-    method puedeIrseALaPosicionX(posicion) {
-      return( posicion < limiteEjeX)
-    }
     
-    method puedeIrseALaPosicionY(posicion) {
-      return( posicion <limiteEjeY)
+    method puedeIrArriba(visual) {
+      return(  visual.position().y() < limiteEjeY-1)
     }
+
+    method puedeIrAbajo(visual) {
+      return(  visual.position().y() > 0)
+    }
+
+    method puedeIrALaIzquierda(visual){
+      return ( visual.position().x() > 0)
+    }
+
+    method puedeIrALaDerecha(visual){
+      return ( visual.position().x() < limiteEjeX-1)
+    }
+
 }
